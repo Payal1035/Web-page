@@ -1,0 +1,168 @@
+html{
+    height: 100%;
+}
+body{
+    box-sizing: border-box;
+    padding: 0%;
+    min-height: 100%;
+}
+
+img{
+    height: 53px;
+    width: 63px;
+}
+/*head styling*/
+.navbar{
+    padding: 0;
+}
+.assist{
+    padding-top: 1rem;
+}
+.assist img{
+    height: 20px;
+    width: 25px;
+}
+.btn{
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+}
+.btn:hover{
+    font-weight: 500;
+    background-color: gray;
+}
+/*head styling*/
+/*Content styling*/
+.content{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+   padding: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-right: 0;
+    margin-left: ; */
+}
+.row1{
+    padding: .5rem;
+   
+}
+.card{
+    
+    border: white;
+}
+.items{
+    border: 1px solid rgb(139, 137, 137);
+    padding: 1rem;
+    margin-right: 1.5rem;
+   
+}
+.items:nth-child(2){
+    padding: .3rem;
+}
+.upper{
+    display: inline-flex;
+   
+}
+h5{
+    padding-top: .8rem;
+    padding-left: .5rem;
+}
+.toggle{
+    display: flex;
+   /* flex-direction: row-reverse; */
+   flex-wrap: wrap;
+   flex-shrink: 2;
+}
+
+.form-check-input:checked {
+    background-color: #010101;
+    border-color: #010101;
+}
+.Linear{
+    border-radius: 20px;
+}
+
+.Malchimp{
+    border-radius: 33px;
+}
+
+.Intercom{
+    border-radius: 45px;
+}
+
+.Dropbox{
+    border-radius: 34px;
+}
+
+
+/*End Content styling*/
+
+/*Foot styling*/
+
+.foot{
+    background-color: rgb(219, 236, 251);
+    z-index: 3;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+   z-index: 3;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    /* justify-content: center; */
+    align-items: center;
+   
+}
+
+.box1{
+    /* padding: 2px; */
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.but{
+    padding: 1rem;
+}
+.btn2{
+    color:black;
+    background-color: white;
+    border: 1px solid black;
+}
+.btn3{
+    color:white;
+    background-color: black;
+    border: 1px solid black;
+}
+/*End Foot styling*/
+
+
+@media (max-width: 1000px) {
+    .row2{
+        display: flex;
+        flex-direction: column;
+    }
+    .items:nth-child(2){
+        margin-right: 1rem;
+     }
+}
+
+@media (max-width: 490px) {
+    */
+
+    .items{
+        padding-bottom: 2px;
+    }
+    .items:nth-child(2){
+        margin-top: 1rem;
+     }
+    .row1{
+        display: flex;
+        flex-direction: column;
+     
+    }
+}
